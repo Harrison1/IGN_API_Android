@@ -7,3 +7,9 @@ The app switches between different APIs by using a toggle button at the top of t
 
 Below are some pics
 
+![Alt text](/screenshots/nex3.png?raw=true)
+![Alt text](/screenshots/nex1.png?raw=true)
+![Alt text](/screenshots/nex2.png?raw=true)
+![Alt text](/screenshots/ignapp1.PNG?raw=true)
+![Alt text](/screenshots/ignapp2.PNG?raw=true)
+
