@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gap"
+    android:paddingRight="8dp"
+    android:paddingLeft="0dp"
+    android:paddingBottom="4dp"
+    android:paddingTop="8dp">
+
+    <!-- cell number -->
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:text="01"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:id="@+id/cellCount"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"/>
+
+    <!-- IGN title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cellCount"
+        android:layout_toRightOf="@+id/cellCount"
+        android:textSize="20dp"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:text="TITLE "
+        android:layout_toLeftOf="@+id/duration"
+        android:layout_toStartOf="@+id/duration"/>
+
+    <!-- description -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/description"
+        android:textSize="20dp"
+        android:text="description"
+        android:maxLines="1"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/cellCount"
+        android:layout_toStartOf="@+id/duration" />
+
+    <!-- duration -->
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:textColor="@color/duration"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="time"
+        android:gravity="right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!-- urlLink -->
+    <TextView
+        android:id="@+id/urlLink"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="0sp" />
+
+
+</RelativeLayout>
+
